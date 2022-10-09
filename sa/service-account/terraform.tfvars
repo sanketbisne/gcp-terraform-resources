@@ -1,4 +1,4 @@
-project_id = "souviks-world"
+project_id = "sanket-gcp-project"
 names = ["gcr-custom-role"]
 project_roles= [
 "resourcemanager.projects.get",

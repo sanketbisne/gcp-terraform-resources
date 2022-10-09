@@ -1,5 +1,19 @@
 This Repository includes terraform modules for following resources:
 
+Run the below shell script, which will enable the below apis before provisioning the infrastructure.
+
+```
+
+- secretmanager.googleapis.com
+- cloudbuild.googleapis.com
+- container.googleapis.com
+- containerregistry.googleapis.com
+
+
+``` 
+
+Let's Provision our infrastructure through terraform.
+
 There are  be Two Directories
 
 - Child Module -> Includes all the details which can be reused for creating resources.
@@ -70,3 +84,8 @@ terraform apply
 
 Thanks, Let me know your suggestions and feedback
 
+5. Teardown our infrastructure
+
+``` 
+ terraform destroy 
+```

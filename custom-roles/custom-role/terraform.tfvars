@@ -1,5 +1,5 @@
-project_id = "souviks-world"
-target_id  = "souviks-world"
+project_id = "sanket-gcp-project"
+target_id  = "sanket-gcp-project"
 role_id="gcrcustomrole"
 
 permissions = [
