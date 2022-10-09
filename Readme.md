@@ -1,6 +1,22 @@
 This Repository includes terraform modules for following resources:
 
+Clone this repository from the below command.
+
+```
+git clone https://github.com/sanketbisne/gcp-terraform-resources.git
+
+```
+
 Run the below shell script, which will enable the below apis before provisioning the infrastructure.
+
+```
+
+./enable-api.sh
+
+```
+Below API's will be enable by running the shell script.
+
+Explore other API's from this link-> https://console.cloud.google.com/apis/library/browse?project=$PROJECT_ID
 
 ```
 
@@ -14,18 +30,18 @@ Run the below shell script, which will enable the below apis before provisioning
 
 Let's Provision our infrastructure through terraform.
 
-There are  be Two Directories
+There are 5 Directories. Each containing its child module and root module
 
 - Child Module -> Includes all the details which can be reused for creating resources.
 - Parent Module -> Includes all the configuration logic to create the infrastructure.
 
 
-Clone this repository:
+Go into each directory:
 
 ``` 
-git clone https://github.com/sanketbisne/gcp-terraform-resources.git
 cd gcp-terraform-resources 
 ```
+
 To create individual resources, just follow the below steps:
 
 1. Service Account
