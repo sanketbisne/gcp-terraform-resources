@@ -15,7 +15,7 @@
  */
 
 module "gke" {
-  source                    = "../gke-module/private-cluster/"
+  source                    = "../gke-cluster-module/private-cluster/"
   project_id                = var.project_id
   name                      = var.cluster_name
   regional                  = true
