@@ -7,3 +7,4 @@ trigger_config = {
     branch_regex = ".*"
     tag_regex    = null
   }
+ 
