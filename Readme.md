@@ -85,7 +85,9 @@ terraform plan
 terraform apply
 ```
 -> After executing the above commands, our VPC will be created.
+
 4. GKE
+
 We are creating a public cluster with private endpoint.
 Go inside the "simple_regional_private" directory
 
@@ -103,5 +105,7 @@ Thanks, Let me know your suggestions and feedback
 5. Teardown our infrastructure
 
 ``` 
+
  terraform destroy 
+
 ```
